@@ -1,0 +1,470 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+#Layer5
+{
+   background-color: #FFE9FF;
+   background-image: none;
+   border-radius: 0px;
+   padding: 0;
+   box-sizing: border-box;
+}
+#Layer6
+{
+   background-color: #E9FFFF;
+   background-image: none;
+   border-radius: 0px;
+   padding: 0;
+   box-sizing: border-box;
+}
+#Layer2
+{
+   background-color: #F5F5DC;
+   background-image: none;
+   border-radius: 0px;
+   margin: 0;
+}
+#Layer3
+{
+   background-color: #E0FFFF;
+   background-image: none;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+}
+#Layer1
+{
+   background-color: #F0FFF0;
+   background-image: none;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: right;
+}
+#wb_Text1 div
+{
+   text-align: right;
+}
+#Layer4
+{
+   background-color: #00FF7F;
+   background-image: none;
+   border-radius: 0px;
+   padding: 0;
+   box-sizing: border-box;
+   margin: 0;
+}
+#Button1
+{
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#TextArea1
+{
+   border: 1px solid #CCCCCC;
+   border-radius: 4px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   box-sizing: border-box;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   text-align: left;
+   overflow: auto;
+   resize: none;
+}
+#TextArea1:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Button2
+{
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#Layer7
+{
+   background-color: #E6E6FA;
+   background-image: none;
+   border-radius: 0px;
+   padding: 0;
+   box-sizing: border-box;
+}
+#wb_PanelMenu2 a, #PanelMenu2_markup li a
+{
+   display: block;
+   text-align: center;
+   vertical-align: middle;
+}
+#PanelMenu2_markup
+{
+   display: none;
+   margin: 0;
+   padding: 0;
+}
+#PanelMenu2_panel #PanelMenu2_markup
+{
+   display: block;
+}
+#PanelMenu2_markup ul
+{
+   list-style: none;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+#PanelMenu2_markup li a, #PanelMenu2_markup li a:hover, #PanelMenu2_markup li .active
+{
+   padding: 10px 10px 10px 10px;
+   box-shadow: none;
+}
+#PanelMenu2_markup .divider
+{
+   height: 1px;
+   margin: 9px 0;
+   overflow: hidden;
+   background-color: #2E2E2E;
+}
+#PanelMenu2_panel
+{
+   display: none;
+   position: fixed;
+   top: 0;
+   height: 100%;
+   width: 200px;
+   z-index: 9999;
+}
+#PanelMenu2_markup li a
+{
+   color: #F7F7F7;
+   border: 1px solid #2E2E2E;
+   background-color: #3E3E3E;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   text-decoration: none;
+}
+#wb_PanelMenu2 a
+{
+   color: #F7F7F7;
+   border: 1px solid #2E2E2E;
+   border-radius: 0px;
+   background-color: #3E3E3E;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   text-decoration: none;
+   text-align: center;
+}
+#PanelMenu2_markup li a:hover, #PanelMenu2_markup li .active
+{
+   color: #F7F7F7;
+   background-color: #484848;
+   border: 1px solid #2E2E2E;
+}
+#PanelMenu2_markup li a .icon
+{
+   fill: currentColor;
+   width: 13px;
+   height: 13px;
+}
+#PanelMenu2_markup li a:hover .icon
+{
+   fill: currentColor;
+}
+#PanelMenu2 .button-icon
+{
+   fill: currentColor;
+}
+#PanelMenu2:hover .button-icon
+{
+   fill: currentColor;
+}
+#wb_PanelMenu2 a:hover
+{
+   color: #F7F7F7;
+   background-color: #484848;
+   border: 1px solid #2E2E2E;
+}
+#PanelMenu2_panel
+{
+   background-color: #3E3E3E;
+   overflow-y: auto;
+}
+#PanelMenu2
+{
+   padding-left: 35px;
+}
+#PanelMenu2 .button-icon
+{
+   position: absolute;
+   top: 50%;
+   left: 10px;
+   width: 25px;
+   height: 25px;
+   margin-top: -12px;
+}
+#PanelMenu2
+{
+   line-height: 36px;
+   width: 6px;
+   height: 36px;
+   position: absolute;
+   z-index: 999;
+}
+#Button3
+{
+   border: 1px solid #2E6DA4;
+   border-radius: 4px;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 13px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text2 div
+{
+   text-align: center;
+}
+#wb_Text2
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#TextArea1
+{
+   display: block;
+   width: 100%;
+   height: 93px;
+   z-index: 8;
+}
+#Layer6
+{
+   position: absolute;
+   overflow: hidden;
+   text-align: left;
+   left: 16px;
+   top: 504px;
+   width: 195px;
+   height: 68px;
+   z-index: 15;
+}
+#Button3
+{
+   display: inline-block;
+   width: 96px;
+   height: 25px;
+   z-index: 12;
+}
+#Layer7
+{
+   position: absolute;
+   overflow: hidden;
+   text-align: left;
+   left: 28px;
+   top: 585px;
+   width: 195px;
+   height: 156px;
+   z-index: 20;
+}
+#wb_PanelMenu2
+{
+   position: absolute;
+   left: 0px;
+   top: 1px;
+   width: 41px;
+   height: 36px;
+   text-align: center;
+   z-index: 4;
+}
+#Button2
+{
+   display: inline-block;
+   width: 124px;
+   height: 32px;
+   z-index: 9;
+}
+#wb_uid3
+{
+   color: #000000;
+   font-family: "Arial";
+   font-size: 13px;
+}
+#Button1
+{
+   display: inline-block;
+   width: 154px;
+   height: 33px;
+   z-index: 10;
+}
+#wb_uid2
+{
+   color: #000000;
+   font-family: "Arial";
+   font-size: 13px;
+}
+#wb_uid1
+{
+   color: #000000;
+   font-family: "Arial";
+   font-size: 16px;
+}
+#wb_uid0
+{
+   position: absolute;
+   left: 0px;
+   top: 7px;
+   margin: 0;
+   border-width: 0;
+   z-index: 250;
+}
+#wb_Text1
+{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 313px;
+   height: 15px;
+   text-align: right;
+   z-index: 3;
+}
+#Layer1
+{
+   position: relative;
+   overflow: auto;
+   text-align: left;
+   width: 313px;
+   height: 69px;
+   float: left;
+   display: inline-block;
+   z-index: 18;
+}
+#Layer2
+{
+   position: relative;
+   text-align: left;
+   width: 313px;
+   height: 40px;
+   float: left;
+   display: inline-block;
+   z-index: 16;
+}
+#Layer3
+{
+   position: relative;
+   text-align: left;
+   width: 313px;
+   height: 57px;
+   float: left;
+   display: inline-block;
+   z-index: 17;
+}
+#Layer4
+{
+   position: relative;
+   overflow: scroll;
+   text-align: left;
+   width: 313px;
+   height: 218px;
+   float: left;
+   display: inline-block;
+   z-index: 19;
+}
+#Layer5
+{
+   position: absolute;
+   overflow: hidden;
+   text-align: left;
+   left: 0px;
+   top: 421px;
+   width: 250px;
+   height: 83px;
+   z-index: 14;
+}

@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>RW 5 Angkid</title>
+<meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wwb17.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#PanelMenu2").panel({animate: true, animationDuration: 150, animationEasing: 'linear', dismissible: true, display: 'overlay', position: 'left', toggle: true});
+   $("#PanelMenu2_markup ul li a").click(function(event)
+   {
+       $.panel.hide($("#PanelMenu2_panel"));
+   });
+});
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<script src="vue.js"></script>
+<script src="kependudukan/vue.js"></script>
+
+
+
+
+
+</head>
+<body>
+<div id="app">
+
+<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" id="wb_uid0" width="16" height="16"></a>
+<div id="Layer5">
+<div id="wb_Text2">
+<span id="wb_uid1">Sistem Kependudukan<br>RW 05, Kel. Antapani Kidul<br>Bandung</span>
+</div>
+  <div class="login-card">
+    <h1>Log-in</h1><br>
+    
+  
+    <input type="text" name="user" placeholder="Userid" v-model="userid">
+    <input type="password" name="pass" placeholder="Password" v-model="userpass">
+    <div id="login" onclick="login()"> login </div>
+    {{pesane}}
+
+  
+</div>
+
+
+</div>
+<div id="Layer6">
+<div id="listnama">
+    <div id="cjudul">Daftar Surat Pengantar</div>
+    <div id="halo" v-for="(index,w) in sah | fsah ssah ">
+        <div id="Card1-card-body" v-on:click="window.location.href='./page1.html';return false;"> 
+            <div id="cno">Tgl : {{w.tgl}}</div>
+            <div id="cno">No RT :{{w.no}} No Rw : {{w.nohp}}</div>
+            <div id="Card1-card-item0">{{w.nama}}</div>
+            <div id="Card1-card-item1">{{w.alamat}}</div>
+            <div id="cket">{{w.ket}}</i></div>
+            <div id="ccetak">{{w.darah}} </div>
+        </div>
+
+    </div>
+</div>
+</div>
+<div id="Layer2">
+<div id="wb_Text1" onscroll="ShowObject('wb_Text1', 0);ShowObjectWithEffect('wb_Text1', 1, 'slideright', 500);ShowObjectWithEffect('wb_Text1', 1, 'slideleft', 500);ShowObjectWithEffect('wb_Text1', 0, 'slideleft', 500);ShowObjectWithEffect('wb_Text1', 0, 'slideright', 500);return false;">
+<span id="wb_uid2">{{userlogin[0].nama+' RT : '+userlogin[0].rt}}</span></div>
+<div id="wb_PanelMenu2">
+<a href="#PanelMenu2_markup" id="PanelMenu2"><svg class="button-icon" viewBox="0 0 140 140" version="1.1" xmlns="http://www.w3.org/2000/svg">
+   <path d="M140 110 L140 120 C140 121, 140 122, 139 123 C138 124, 137 125, 135 125 L5 125 C4 125, 3 124, 2 123 C1 122, 0 121, 0 120 L0 110 C0 109, 1 107, 2 106 C3 105, 4 105, 5 105 L135 105 C137 105, 138 105, 139 106 C140 107, 140 109, 140 110 Z M140 80 L140 90 C140 91, 140 92, 139 93 C138 94, 137 95, 135 95 L5 95 C4 95, 3 94, 2 93 C1 92, 0 91, 0 90 L0 80 C0 79, 1 77, 2 76 C3 75, 4 75, 5 75 L135 75 C137 75, 138 75, 139 76 C140 77, 140 79, 140 80 Z M140 50 L140 60 C140 61, 140 62, 139 63 C138 64, 137 65, 135 65 L5 65 C4 65, 3 64, 2 63 C1 62, 0 61, 0 60 L0 50 C0 49, 1 47, 2 46 C3 45, 4 45, 5 45 L135 45 C137 45, 138 45, 139 46 C140 47, 140 49, 140 50 Z M140 20 L140 30 C140 31, 140 32, 139 33 C138 34, 137 35, 135 35 L5 35 C4 35, 3 34, 2 33 C1 32, 0 31, 0 30 L0 20 C0 19, 1 17, 2 16 C3 15, 4 15, 5 15 L135 15 C137 15, 138 15, 139 16 C140 17, 140 19, 140 20"/>
+</svg>
+&nbsp;</a>
+<div id="PanelMenu2_markup">
+<ul role="menu">
+   <li role="menuitem"><a href="facetime:" class="nav-link" onclick="bersih('Layer2');return false;">Data Warga</a></li>
+   <li role="menuitem"><a href="" class="nav-link" onclick="bersih('Layer6');return false;">Surat Pengantar</a></li>
+   <li role="menuitem"><a href="./index.html" class="nav-link active" onclick="update();return false;">Update Data</a></li>
+   <li role="menuitem"><a href="./index.html" class="nav-link active">User</a></li>
+   <li role="menuitem"><a href="facetime:" class="nav-link" onclick="bersih('Layer7');return false;">Template</a></li>
+   <li role="menuitem"><a href="./index.html" class="nav-link active">Rubah Passowd</a></li>
+   <li role="menuitem"><a href="facetime:" class="nav-link" onclick="ShowObjectWithEffect('Layer5', 1, 'slideleft', 500);return false;">Logout</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="Layer3">
+    <div id="Labelbox1" >
+    Search Nama / Alamat 
+    </div>
+    
+    <input type="email" id="Editcari" class="cari" name="edita" autocomplete="on" v-model="snama" value="" placeholder="nama/alamat" v-on:click="res()">
+    
+    
+    
+    
+
+</div>
+<div id="Layer1">
+    <div id="listnama">
+        <div id="halo" v-for="(index,w) in warga | fnama snama  ">
+         
+   <div id="Card1-card-body" v-on:click="say(w,index)" >
+      <div id="Card1-card-item0">{{w.nama}}</div>
+      <div id="Card1-card-item1">{{w.alamat}}</div>
+   </div>          
+          
+        </div>
+    </div>
+
+</div>
+<div id="Layer4">
+<div id="div1">
+
+<div id="wb_Text3a">
+<span id="wb_uid3"><br>Nama :<br>{{surat.nama}}<br><br>Jenis Kelamin :<br>{{surat.kelamin}}<br><br>Tempat Tanggal Lahir :<br>{{surat.lahir+ ','+surat.tgl_lahir}}<br><br>Pekerjaan :<br>{{surat.pekerjaan}}<br><br>Alamat :<br>{{surat.alamat}}<br><br>No NIK/KTP :<br>{{surat.nk}}<br><br>Status :<br>{{surat.status}}<br><br>Agama :<br>{{surat.agama}}<br><br>Pendidikan :<br>{{surat.pendidikan}}<br><br>Hub. Keluarga :<br>{{surat.keluarga}}<br><br>No HP :<br>{{surat.hp}}<br><br>Menetap Sejak :<br>{{surat.menetap}}<br><br>Status Rumah :<br>{{surat.rumah}}<br></span>
+</div>
+
+</div>            
+
+
+<div id="div1">
+            <p>Pilihan surat pengantar:</p>
+            <div id="pilihan" v-for="(index,w) in keterangan | fket sket "  v-on:click="pilket(w)"  | fket snama >
+                <input type="radio" id="{{w.nama}}" name="fav_language" value="{{w.nama}}">
+                <label for="{{w.nama}}">{{w.nama}}</label><br>
+            </div>
+            <br>
+</div>            
+
+
+<textarea name="TextArea1" id="TextArea1" rows="4" cols="35" spellcheck="false"></textarea>
+<input type="button" id="Button2" onclick="window.location.href='./page1.html';return false;" name="" value="Print / Preview">
+<input type="button" id="Button1" onclick="terbit();return false;" name="" value="Save/Create"><br><br><br>
+</div>
+<div id="Layer7">
+    <div id="listnama">
+        <div id="halo2" v-for="(index,w) in aketerangan ">
+         
+   
+        <input type="email" id="knama" name="knama" v-model="w.nama"  placeholder="Nama Template" >
+        <textarea name="TextArea1" id="TextAreaa"   v-model="w.isi"   placeholder="Isi Template" rows="5" cols="32"  ></textarea>
+
+          
+        </div>
+    </div>
+<input type="button" id="Button3" onclick="simpan_template();return false;" name="Save" value="Save">
+</div>
+</div>
+<script src="script.js"></script>
+<script src="kependudukan/script.js"></script>
+<link href="kependudukan.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<link href="css.css" rel="stylesheet">
+<link href="kependudukan/css.css" rel="stylesheet">
+</body>
+</html>
